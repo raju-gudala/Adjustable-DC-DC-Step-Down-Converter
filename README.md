@@ -15,7 +15,7 @@ This project demonstrates the design and implementation of an adjustable DC-DC b
 | Parameter | Value |
 |---|---|
 | IC | LM2596S-ADJ |
-| Input Voltage | 4.5V – 40V DC |
+| Input Voltage | 5V – 40V DC |
 | Output Voltage | Adjustable |
 | Max Output Current | 3A (continuous) |
 | Topology | Step-down (Buck) |
