@@ -1,0 +1,159 @@
+(footprint "DIOM8059X265N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMC CASE 403AG ISSUE O")
+	(tags "Schottky Diode")
+	(property "Reference" "D**"
+		(at 0 -3.83 0)
+		(layer "F.SilkS")
+		(uuid "8a9d2e42-1479-4eb3-85cc-a76506efd360")
+		(effects
+			(font
+				(size 0.75 0.75)
+			)
+		)
+	)
+	(property "Value" "DIOM8059X265N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a94772ce-3a1f-4922-94cf-c444ba28af2a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f3f1085-974f-4f82-9961-a4828c2ece33")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f3dfc76-3a31-471c-883c-15ead8c5cc8e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.975 2.95)
+		(end 3.975 2.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0e99ce74-159d-49d2-b423-912e6561659d")
+	)
+	(fp_line
+		(start 3.975 -2.95)
+		(end -4.575 -2.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "43c360af-0d25-4681-839b-b54122d6db20")
+	)
+	(fp_line
+		(start -3.975 -2.95)
+		(end 3.975 -2.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7f401d18-8346-48f3-9574-4dd6ca347838")
+	)
+	(fp_line
+		(start -3.975 -1.825)
+		(end -2.85 -2.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6349c5f0-cbae-4eeb-8623-62980c315075")
+	)
+	(fp_line
+		(start -3.975 2.95)
+		(end -3.975 -2.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ba4a71b5-a973-4d62-bc35-6dc3fc5237d6")
+	)
+	(fp_line
+		(start 3.975 -2.95)
+		(end 3.975 2.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "02d96cf6-0531-4664-a687-75c74e0391a0")
+	)
+	(fp_line
+		(start 3.975 2.95)
+		(end -3.975 2.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4f5e3044-fdf9-4772-985b-1c2a14c78c1d")
+	)
+	(pad "1" smd rect
+		(at -3.45 0)
+		(size 2.25 3.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d0c08848-01f0-4ea6-b2d5-7548e68ea881")
+	)
+	(pad "2" smd rect
+		(at 3.45 0)
+		(size 2.25 3.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f598de75-76a2-49b1-a311-b2724dae46c1")
+	)
+	(embedded_fonts no)
+	(model "SS36.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/Components/SS36/SS36.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

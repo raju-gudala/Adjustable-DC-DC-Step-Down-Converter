@@ -1,0 +1,169 @@
+(footprint "CAPAE1700X1700N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "J16 (1)")
+	(tags "Capacitor Polarised")
+	(property "Reference" "C**"
+		(at 0 -9.77 0)
+		(layer "F.SilkS")
+		(uuid "8b378805-9722-49df-b462-4f83428efd6a")
+		(effects
+			(font
+				(size 0.75 0.75)
+			)
+		)
+	)
+	(property "Value" "CAPAE1700X1700N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d2dd4ca7-91d4-4f29-80b2-d16eb1d2b518")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cfcb601f-5599-48be-adb4-36f21f107caf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a6107cc-cd6e-4cef-b332-5c1fedcd0129")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -10.3 -8.5)
+		(end 8.5 -8.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "04b2f8ce-f530-45b0-9bfc-41730d10da5c")
+	)
+	(fp_line
+		(start -4.25 8.5)
+		(end 8.5 8.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c63418b8-872c-40d2-ac23-de38939faf85")
+	)
+	(fp_line
+		(start -8.5 -4.25)
+		(end -8.5 4.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d2dc8011-81e7-458f-befb-e2f3b4750e3c")
+	)
+	(fp_line
+		(start -8.5 4.25)
+		(end -4.25 8.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a184b9ef-1845-4aaa-ab85-690588ba5e1a")
+	)
+	(fp_line
+		(start -4.25 -8.5)
+		(end -8.5 -4.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d53707fb-0e93-4b8c-bb5d-c4f17b71fff9")
+	)
+	(fp_line
+		(start -4.25 8.5)
+		(end 8.5 8.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c6022caf-cfe9-4c70-a46d-621886033c19")
+	)
+	(fp_line
+		(start 8.5 -8.5)
+		(end -4.25 -8.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "07cba3e4-771a-4f0a-b2db-e4d7bdf58721")
+	)
+	(fp_line
+		(start 8.5 8.5)
+		(end 8.5 -8.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8d7ec561-f870-4ed5-a34f-ff58cb648c5a")
+	)
+	(pad "1" smd rect
+		(at -7.15 0 90)
+		(size 2.5 6.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dcb60939-30ca-4510-86c1-75cd8635c85b")
+	)
+	(pad "2" smd rect
+		(at 7.15 0 90)
+		(size 2.5 6.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cb140b5f-526b-4f0a-86dd-290e18f066d9")
+	)
+	(embedded_fonts no)
+	(model "EEV-TG1H681UM.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/Components/EEV-TG1H681UM/EEV-TG1H681UM.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 180)
+		)
+	)
+)

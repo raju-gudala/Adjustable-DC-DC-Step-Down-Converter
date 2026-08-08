@@ -1,0 +1,15 @@
+# KiCad lock files
+*.lck
+
+# KiCad backup folders
+*-backups/
+
+# KiCad history
+.history/
+
+# Backup files
+*.bak
+
+# Windows
+Thumbs.db
+Desktop.ini
